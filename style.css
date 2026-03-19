@@ -1,0 +1,609 @@
+body {
+  background-image: url(images/bg.4.png);
+  /* background-image: url(images/bg.2.png); */
+  background-color: #11192a;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* w3school helped me to learn some tags/attributes.*/
+}
+
+div {
+  color: #dfc68c;
+}
+
+#head {
+  background-color: #11192a80;
+  padding: 10px;
+  padding-right: 30px;
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  border-bottom: #18233b;
+  border-top: #11192a00;
+  border-left: #11192a00;
+  border-right: #11192a00;
+  border-style: solid;
+  border-radius: 7px;
+  color: #dfc68c;
+  font-size: 17px;
+  font-family: "poppins";
+  /* width: 98%; */
+}
+
+.logo {
+  height: 52px;
+}
+
+.head_l {
+  display: flex;
+}
+
+/* .head_l p {
+  color: #dfc68c;
+  font-size: 17px;
+  font-family: "poppins";
+} */
+
+/* .head_r {} */
+
+.about_btn {
+  height: 30px;
+  width: 50px;
+  /* padding: 10px; */
+  /* background: linear-gradient(to right, #edd6a080, #e5b13780); */
+  /* margin-bottom: 30px; */
+  background-color: #ffffff00;
+  color: #dfc68c;
+  border: none;
+  border-radius: 5px;
+  font-family: "poppins";
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bg {
+  background-color: #11192acd;
+  margin: 10px 40px;
+  padding: 5px 0px 50px 0px;
+  border-radius: 20px;
+  border: 2px solid #212d3d;
+  box-shadow: 0 0 15px #212d3d;
+}
+
+#hero {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  text-align: center;
+  color: #dfc68c;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 0 20px;
+}
+
+.ayah {
+  color: #f5f5f5;
+  font-family: "poppins";
+  font-size: 13px;
+  font-style: italic;
+}
+
+/*.ayah*/
+span {
+  font-size: 12px;
+  color: #f5f5f550;
+  font-style: italic;
+  /* padding-left: 30px; */
+}
+
+.gift_btn {
+  text-align: center;
+}
+
+.gift_btn button {
+  background: linear-gradient(135deg, #0c664d, #119570);
+  color: #ffffff;
+  padding: 12px 28px;
+  border-radius: 17px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0 0 15px #26ba3770;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+
+
+#form h3 {
+  text-align: center;
+  color: #dfc68c;
+  font-family: "poppins";
+  font-weight: 600;
+  font-style: unset;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+#form_div {
+  background-color: #212d3d;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 15px 15px 15px;
+  border-radius: 20px;
+  border: solid 3px #131c2e95;
+  color: #ffffff;
+  box-shadow: 0 0 20px #00000080;
+  width: 70%;
+}
+
+legend {
+  color: #ffffff80;
+  font-size: 20px;
+  /* border-radius: 20px; */
+}
+
+fieldset {
+  border-radius: 10px;
+  border-color: #131c2e95;
+  padding: 20px;
+  font-size: 18px;
+  font-family: "poppins";
+}
+
+label {
+  font-size: 17px;
+  font-family: "poppins";
+}
+
+.nm {
+  min-height: 25px;
+  min-width: 98%;
+  /* width: 10px; */
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: #11192a;
+  color: #dadae2;
+  font-size: 15px;
+}
+
+.gndr_txt_m {
+  color: #ffffff98;
+  font-size: 15px;
+  font-style: normal;
+}
+
+.gndr_txt_f {
+  color: #f8dcf698;
+  font-size: 15px;
+  font-style: normal;
+}
+
+.gndr {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+.gndr_div {
+  display: flex;
+  min-width: fit-content;
+  height: 28px;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: #11192a;
+  color: #dadae2;
+  font-size: 15px;
+  justify-content: space-evenly;
+
+}
+
+.rltn_div {
+  min-width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #11192a;
+  color: #dadae2;
+  font-size: 15px;
+}
+
+.rltn_txt {
+  color: #ffffff;
+  /* text-shadow: 0 0 01px #000000; */
+  font-size: 15px;
+  font-style: normal;
+}
+
+.yes {
+  min-width: fit-content;
+  /* min-height: 10px; */
+  border-radius: 10px;
+  padding: 3px 8px;
+  background-color: #11192a;
+  color: #dadae2;
+  font-size: 15px;
+}
+
+textarea {
+  min-height: 50px;
+  min-width: 98%;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: #11192a;
+  color: #dadae2;
+  font-size: 15px;
+}
+
+textarea::hover {
+  box-shadow: 0 0 20px #00000080;
+}
+
+.eligibility {
+  background: linear-gradient(135deg, #096d51, #cdb46f);
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 17px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0 0 15px #2b691ea5;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.eligibility_div {
+  text-align: center;
+}
+
+.slmi_box {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "poppins";
+}
+
+.slmi_box h4 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.slmi_box .loading {
+  /* image downloaded from net*/
+  height: 52%;
+  box-shadow: 0 0 20px #00000080;
+
+  max-width: 350px
+}
+
+.slmi_box .closeBox {
+  height: 150px;
+  max-width: 178px;
+}
+
+.slmi_box .openBox {
+  height: 150px;
+  max-width: 350px;
+}
+
+.slmi_box .box_2 {
+  height: 178px;
+  max-width: 350px;
+}
+
+
+.slmi_box .dua {
+  background-color: #212d3d;
+  width: 50%;
+  min-height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 12px;
+  border-color: #131c2e95;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+}
+
+.openBox {
+  width: 500px;
+}
+
+.box_2 {
+  margin-top: -15px;
+}
+
+#↓ {
+  font-size: 35px;
+}
+
+#footer_div_up {
+  display: flex;
+  margin-top: 80px;
+  padding: 15px 30px;
+  justify-content: space-between;
+  background-color: #212d3dcd;
+  border-radius: 8px 8px 0 0;
+}
+
+.ftr_txt {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-family: "poppins";
+  font-size: 15px
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0%;
+}
+
+.ftr_txt p {
+  margin-top: 0%;
+  font-size: 18px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 13px;
+  justify-items: center;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#link img {
+  height: 50px;
+}
+
+#footer_div_down {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: space-between;
+  background-color: #212d3dcd;
+  border-radius: 0 0 8px 8px;
+  color: #ffffff;
+  box-shadow: 0 -2px #2c3c51;
+}
+
+#footer_div_down p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "poppins";
+  font-size: 15px;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Reaponsive */
+
+/* Large Desktop: 1200px – 1025px */
+@media screen and (max-width: 1200px) {
+  #form_div {
+    width: 75%;
+    padding: 18px 12px;
+  }
+
+  #hero h1 {
+    font-size: 36px;
+  }
+
+  .gift_btn button,
+  .eligibility {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .slmi_box .dua {
+    width: 60%;
+  }
+}
+
+/* Tablets: 768px – 1024px */
+@media screen and (max-width: 1024px) {
+  #head {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #hero h1 {
+    font-size: 32px;
+  }
+
+  #hero p,
+  #hero .ayah {
+    font-size: 16px;
+  }
+
+  #form_div {
+    width: 80%;
+  }
+
+  .slmi_box .dua {
+    width: 70%;
+    font-size: 14px;
+  }
+}
+
+/* Small Tablets / Large Mobiles: 481px – 767px */
+@media screen and (max-width: 767px) {
+  #head {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  .head_r {
+    margin-top: auto;
+    margin-bottom: auto;
+    flex-direction: row;
+  }
+
+  #hero h1 {
+    font-size: 26px;
+  }
+
+  #hero p,
+  #hero .ayah {
+    font-size: 14px;
+  }
+
+  .gift_btn button,
+  .eligibility {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+
+  #form_div {
+    width: 90%;
+    padding: 12px;
+  }
+
+  .gndr_div,
+  .rltn_div {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .box_2 {
+    margin-top: 1px;
+  }
+
+  .slmi_box img,
+  .slmi_box .dua {
+    width: 90%;
+  }
+}
+
+/* Small Mobile: 320px – 480px */
+@media screen and (max-width: 480px) {
+
+  #head {
+    flex-direction: row;
+    align-items: flex-start;
+    padding-right: 20px;
+
+  }
+
+  .head_l img.logo {
+    height: 40px;
+  }
+
+  .head_l p {
+    font-size: 14px;
+  }
+
+  .head_r {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .head_r button.about_btn {
+    font-size: 14px;
+    padding: 6px 12px;
+    max-width: fit-content;
+  }
+
+  #hero h1 {
+    font-size: 22px;
+  }
+
+  #hero p,
+  #hero .ayah {
+    font-size: 12px;
+  }
+
+  #form_div {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .nm,
+  textarea {
+    width: 100%;
+  }
+
+  .gndr_div,
+  .rltn_div {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .gndr_txt_m,
+  .gndr_txt_f,
+  .rltn_txt,
+  .yes {
+    font-size: 13px;
+  }
+
+  .gift_btn button,
+  .eligibility {
+    width: 100%;
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .slmi_box img {
+    width: 90%;
+    max-width: 200px;
+  }
+
+  .box_2 {
+    margin-top: -11px;
+
+  }
+
+  .slmi_box .dua {
+    width: 90%;
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  #footer_div_up,
+  #footer_div_down {
+    flex-direction: column;
+    text-align: center;
+    padding: 8px;
+  }
+
+  .links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .links img {
+    height: 40px;
+  }
+
+  #footer_div_down p {
+    font-size: 12px;
+  }
+}
+
+/* i think i did too much things. some codes didn't work for me in this section. Have to watch those classes again.*/
